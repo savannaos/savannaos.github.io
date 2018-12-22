@@ -81,6 +81,17 @@
       font-weight: bold;
     }
 
+    .column {
+      float: left;
+      width: 50%;
+    }
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
   </style>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -206,17 +217,51 @@
 
       <div class="sec">
         <poop> <c>Pro</c>jects </poop>
-        <p> <b> Arthonix </b> a physical therapy post surgery application using JS, React, Node, Postgres.</p>
-        <p> <b> Straight Skeletons </b> a computational geometry visualization in JS.</p>
-        <p> <b> Checkers AI </b> an artificial intelligent checkers Java client using reinforcement learning.</p>
+        <p> <a href="https://github.com/mattsliv/arthronix"> <b> Arthonix </b> </a> a physical therapy post surgery application using JS, React, Node, Postgres.</p>
+        <p> <a href="https://github.com/savannaos/straight-skeletons"> <b> Straight Skeletons </b> </a> a computational geometry visualization in JS.</p>
+        <p> <a href="https://github.com/josephsweeney/CheckersAI"> <b> Checkers AI </b> </a> an artificial intelligent checkers Java client using reinforcement learning.</p>
       </div>
       <br> </br>
 
-      <div class="sec">
-        <poop> <c>Ski</c>lls and Interests </poop>
-        <p> <b> Technologies </b> Python, C/C++, JavaScript, SQL, MongoDB, Java, MATLAB, HTML, React, Linux, LaTeX, AWS.</p>
-        <p> <b> Courses </b> Machine Learning, Parallel Systems, Computational Geometry, Network Security.</p>
-        <p> <b> Interests </b> Machine Learning, Computer Vision, Cyber Security, Adversary Emulation, Biometrics, Graphics.</p>
+      <div class="row">
+        <!-- <div class="column">
+          <poop> <c>Ski</c>lls </poop>
+          <ul>
+            <li> Python</li>
+            <li> C/C++ </li>
+            <li> Postgres</li>
+            <li> MongoBD </li>
+            <li> Amazon Web Services</li>
+            <li> Javascript </li>
+            <li> HTML/CSS </li>
+            <li> React </li>
+            <li> Deep Learning </li>
+            <li> Agile Development </li>
+            <li> Technical Writing </li>
+            <li> TensorFlow </li>
+          </ul>
+        </div> -->
+        <div class="column">
+          <poop> <c>Cou</c>rses </poop>
+          <ul>
+            <li> Machine Learning </li>
+            <li> Parallel Systems </li>
+            <li> Artificial Intelligence</li>
+            <li> Comutational Geometry </li>
+            <li> Applied Network Security</li>
+          </ul>
+        </div>
+        <div class="column">
+          <poop> <c>Int</c>erests </poop>
+          <ul>
+            <li> Machine Learning </li>
+            <li> Computer Vision </li>
+            <li> Cyber Security </li>
+            <li> Adversary Emulation </li>
+            <li> Biometrics </li>
+            <li> Graphics</li>
+          </ul>
+        </div>
       </div>
 
     </div>
